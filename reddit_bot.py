@@ -4,8 +4,8 @@ import random
 class bot_reach:
     
     def __init__(self):
-        self.reddit = praw.Reddit(client_id = 'fJqbl_xNWAriWw',
-                     client_secret = 'hI8yqCuGpd0IYSzZ3SS6_XWfjys',
+        self.reddit = praw.Reddit(client_id = '############',
+                     client_secret = '###############',
                      user_agent = 'personal use_script')
         
     def populate_upvotes(self, user):
